@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "astro-space";
+  src: url("webfont.otf");
+  src: url("fonts/AstroSpace.ttf") format("truetype");
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  background-color: #083197;
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  color: #323232;
+  background-color: #fff;
+  width: 100%;
+  padding: 1em;
+  font-family: astro-space;
+}
+
+.main-content {
+  
+  padding: 1em;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #323232;
+  padding: 1em;
+}
+
+footer a {
+  color: hotpink;
+}
