@@ -19,10 +19,18 @@ header {
   padding: 1em;
   font-family: astro-space;
 }
+header a {
+  color: #323232;
+  background-color: #fff;
+  text-decoration: none;
+}
 
 .main-content {
-  
   padding: 1em;
+}
+
+.main-content a {
+  color: hotpink;
 }
 footer {
   position: absolute;
