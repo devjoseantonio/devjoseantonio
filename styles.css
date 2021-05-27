@@ -4,12 +4,14 @@
   src: url("fonts/AstroSpace.ttf") format("truetype");
 }
 
+html,
 body {
   font-family: Roboto, sans-serif;
-  color: #fff;
-  background-color: #083197;
+  color: #fff !important;
+  background-color: #083197 !important;
   margin: 0;
   width: 100%;
+  height: 100vh;
 }
 
 header {
@@ -27,18 +29,19 @@ header a {
 
 .main-content {
   padding: 1em;
+  height: 100%;
 }
 
 .main-content a {
   color: hotpink;
 }
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   color: #fff;
   background-color: #323232;
   padding: 1em;
+  position: fixed;
+  bottom: 0;
 }
 
 footer a {
