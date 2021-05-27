@@ -14,6 +14,15 @@ body {
   height: 100vh;
 }
 
+.container {
+  min-height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0 !important;
+  border: 0;
+  min-width: 100% !important;
+}
+
 header {
   color: #323232;
   background-color: #fff;
@@ -21,6 +30,7 @@ header {
   padding: 1em;
   font-family: astro-space;
 }
+
 header a {
   color: #323232;
   background-color: #fff;
@@ -30,6 +40,7 @@ header a {
 .main-content {
   padding: 1em;
   height: 100%;
+  padding-bottom: 150px;
 }
 
 .main-content a {
@@ -40,8 +51,9 @@ footer {
   color: #fff;
   background-color: #323232;
   padding: 1em;
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  height: 150px;
 }
 
 footer a {
