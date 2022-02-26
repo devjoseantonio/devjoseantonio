@@ -12,3 +12,4 @@ This is my personal GitHub profile, if you want to use any of my repositories fe
     - 💬 WhatsApp: +57 (301) 317 67 33
     - 🐦 Twitter: [@devjoseantonio](https://twitter.com/devjoseantonio)
     - 💻 Web: [devjoseantonio.com](https://devjoseantonio.com)
+    - 🧑‍💼 LinkedIn: [José Antonio Cartagena Guerra](https://www.linkedin.com/in/devjoseantonio)
